@@ -1,0 +1,24 @@
+# Ignorar carpeta de fotos masivas
+assets/img/phil-photos/
+
+# Ignorar archivos comprimidos grandes
+*.zip
+*.rar
+*.tar.gz
+
+# Ignorar archivos de sistema y logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignorar archivos generados temporalmente por nuestros scripts
+missing_photos.txt
+check_*.php
+export_*.php
+
+# Ignorar configuración local de VS Code (opcional, pero recomendado si trabajas en equipo)
+.vscode/
+
+# Otros scripts y archivos de datos
+read_pdf.py
+pdf_content.txt

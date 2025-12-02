@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #d32323; /* Color estilo Yelp */
+    color: white;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+}
+
+header li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    background: #d32323;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #b91f1f;
+}
+
+/* Listado de Restaurantes */
+.restaurant-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.restaurant-card {
+    display: flex;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 15px;
+    gap: 20px;
+}
+
+.restaurant-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.restaurant-info {
+    flex: 1;
+}
+
+.restaurant-info h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.restaurant-info h3 a {
+    color: #0073bb;
+    text-decoration: none;
+}
+
+.restaurant-info h3 a:hover {
+    text-decoration: underline;
+}
+
+.stars {
+    color: #f15c00;
+    font-weight: bold;
+}
+
+.meta {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 2px;
+    border: 1px solid #ddd;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.pagination a.active {
+    background-color: #d32323;
+    color: white;
+    border-color: #d32323;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #f4f4f4;
+}
